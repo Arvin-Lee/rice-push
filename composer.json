@@ -1,0 +1,37 @@
+{
+    "name": "leearvin/rice-push",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Arvin Hermit",
+            "email": "arvin.hermit@gmail.com",
+            "homepage": "https://github.com/Arvin-Lee"
+        }
+    ],
+    "description": "rice push.",
+    "autoload": {
+        "psr-4": {
+            "Rice\\Push\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RiceTest\\Push\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+    }
+}
